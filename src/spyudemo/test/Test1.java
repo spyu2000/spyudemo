@@ -16,7 +16,7 @@ public class Test1 {
 	    	
 	    	User user1=JSON.parseObject(test, User.class);
 	    	
-	    	System.out.println(user1.getName()+"");
+	    	System.out.println(user1.getName());
 	    	
 	    }
 }
