@@ -30,7 +30,7 @@ public class Test extends TestCase {
 
     @Before
     public void setUp() {
-        pool = new JedisPool(new JedisPoolConfig(), "127.0.0.1");
+        pool = new JedisPool(new JedisPoolConfig(), "192.168.0.218");
         jedis = pool.getResource();
         jedis.auth("password");
     
