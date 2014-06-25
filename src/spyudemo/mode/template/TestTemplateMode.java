@@ -2,7 +2,7 @@ package spyudemo.mode.template;
 
 import java.sql.ResultSet;
 
-public class Test {
+public class TestTemplateMode {
 
 	public static <T> void main(String[] args){
 		
